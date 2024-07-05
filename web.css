@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover, nav ul li.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .typebtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .typebtn {
+    background-color: red;
+}
+
+.types-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.types-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.types-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .types-content {
+    display: block;
+}*/
+
+.titlepage {
+    text-align: center;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2%;
+    padding-top: 5px;
+}
+
+#topBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed position */
+    bottom: 20px;
+    /* 20px from the bottom */
+    right: 30px;
+    /* 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #4CAF50;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: #168d29;
+    /* Darker green on hover */
+}
+
+
+#migrate {
+    font-weight: bolder;
+    font-size: 250%;
+    margin: 0.5%;
+    margin-bottom: 0.5px;
+}
+
+#migration {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    padding-top: 15px;
+    margin-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+#migrate_video {
+    background-color: rgb(54, 52, 57);
+    padding-top: 2%;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    margin-bottom: 2%;
+    align-self: center;
+}
+
+#para{
+    font-size: large;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#migration_video {
+    margin-top: 2%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 52, 57);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#para {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    /* Add borders around each cell */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/*.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}*/
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.faq-container {
+    width: 100%;
+    /* Ensure full width */
+    padding: 20px 0;
+    /* Add padding top and bottom */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Align FAQ items to the left */
+    padding: 10px;
+    /* Add padding for spacing */
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    /* Remove default margin for h3 */
+}
+
+.faq-item p {
+    margin-bottom: 0;
+    /* Remove default margin for p */
+}
+
+.required {
+    color: rgb(0, 0, 0); /* Red color for the asterisk */
+}
+
+.download{
+    position: fixed;
+    right: 10;
+    top: 60;
+    color: white;
+    width: fit-content;
+    height: 5%;
+}
+
+.image-grid {
+    place-items: center;
+    display: grid;         /* Define a grid container */
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal fraction */
+    gap: 10px;            /* Space between images */
+}
+.image-grid img {
+    width: 550px;         /* Width of each image */
+    height: 400px;        /* Height of each image */
+    object-fit: cover;    /* Ensure images cover the area without distortion */
+    border-radius: 10px;
+}

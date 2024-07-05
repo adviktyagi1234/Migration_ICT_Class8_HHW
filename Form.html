@@ -1,0 +1,63 @@
+<html>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="web.css">
+    </head>
+
+    <body>
+
+    <header>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="reasons.html">Reason For Migration</a></li>
+              <li class="dropdown">
+                  <a href="javascript:void(0)">Types of Migration</a>
+                  <ul class="dropdown-content">
+                      <li><a href="Economic.html">Economic Migration</a></li>
+                      <li><a href="Force.html">Forced Migration</a></li>
+                      <li><a href="Internal.html">Internal Migration</a></li>
+                  </ul>
+              </li>
+              <li><a href="Effects.html">Effects of Migration</a></li>
+              <li><a href="Data.html">Let's Talk About Numbers</a></li>
+              <li><a href="Form.html">Form</a></li>
+              <li><a href="FAQ.html">FAQs</a></li>
+              <li><a href="about.html">About Us</a></li>
+          </ul>
+      </nav>
+    </header>
+        </head>
+        <br><br><br>
+
+        <body>
+
+            <h2 style="text-align: center;">Contact Form</h2>
+
+            <form id="contactForm">
+                <label for="name" class="required">Name<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" class="required">Email Address<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone" class="required">Phone Number<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <script>
+                document.getElementById('contactForm').addEventListener('submit', function (event) {
+                    event.preventDefault(); // Prevent the form from submitting the traditional way
+                    alert('Your data has been submitted');
+                });
+            </script>
+            <br><br><br>
+            <div class="footer">
+                <p>By- Advik Tyagi 8D</p>
+            </div>
+        </body>
+
+</html>

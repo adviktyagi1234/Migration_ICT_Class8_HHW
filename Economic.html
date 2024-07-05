@@ -1,0 +1,80 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="web.css">
+  </head>
+
+  <body>
+
+            <header>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="reasons.html">Reason For Migration</a></li>
+              <li class="dropdown">
+                  <a href="javascript:void(0)">Types of Migration</a>
+                  <ul class="dropdown-content">
+                      <li><a href="Economic.html">Economic Migration</a></li>
+                      <li><a href="Force.html">Forced Migration</a></li>
+                      <li><a href="Internal.html">Internal Migration</a></li>
+                  </ul>
+              </li>
+              <li><a href="Effects.html">Effects of Migration</a></li>
+              <li><a href="Data.html">Let's Talk About Numbers</a></li>
+              <li><a href="Form.html">Form</a></li>
+              <li><a href="FAQ.html">FAQs</a></li>
+              <li><a href="about.html">About Us</a></li>
+          </ul>
+      </nav>
+  </header>
+    <br><br><br><br>
+    <div>
+      <h4 id="migration">Economic Migration:<p id="para">Economic migration is when people move from one place to
+          another to find better job opportunities or improve their standard of living. This type of migration usually
+          happens because people want to earn more money, have better working conditions, or access more job options.
+          Economic migrants might move within their own country or to a different country.</p><br>
+      </h4>
+      <br><br>
+    </div>
+      <br>
+      <div class="body">
+        <div class="image-grid" style="text-align: center;">
+          <img src="images/EcoMig1.jpg" alt="Image 1">
+          <img src="images/EcoMig2.jpg" alt="Image 2">
+          <img src="images/EcoMig3.jpg" alt="Image 3">
+          <img src="images/EcoMig4.jpg" alt="Image 4">
+        </div>
+      </div>
+    <br>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script><br><br>
+    <div class="footer">
+      <p>By- Advik Tyagi 8D</p>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="web.css">
+    </head>
+
+    <body>
+
+    <header>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="reasons.html">Reason For Migration</a></li>
+              <li class="dropdown">
+                  <a href="javascript:void(0)">Types of Migration</a>
+                  <ul class="dropdown-content">
+                      <li><a href="Economic.html">Economic Migration</a></li>
+                      <li><a href="Force.html">Forced Migration</a></li>
+                      <li><a href="Internal.html">Internal Migration</a></li>
+                  </ul>
+              </li>
+              <li><a href="Effects.html">Effects of Migration</a></li>
+              <li><a href="Data.html">Let's Talk About Numbers</a></li>
+              <li><a href="Form.html">Form</a></li>
+              <li><a href="FAQ.html">FAQs</a></li>
+              <li><a href="about.html">About Us</a></li>
+          </ul>
+      </nav>
+    </header>
+        </head>
+        <br><br><br>
+
+        <body>
+
+            <h2 style="text-align: center;">About Us</h2>
+            <div class="about-us">
+                <p>Hello! I'm <strong>Advik Tyagi</strong>.</p>
+                <img src="images/AdvikHindiDebate_cropped.jpeg" alt="Advik Tyagi" style="width:200px;height:auto;">
+                <p>I am a class 8th student passionate about technology and web development. This website was created as part of my holiday homework, and it showcases my first steps into the exciting world of web design and coding.</p>
+                
+                <h3>My Journey into Web Development</h3>
+                <p>I am at the initial stages of my learning journey and there is still a long way to go. Each line of code teaches me something new and takes me one step closer to becoming more proficient. Here's a little about what I've learned so far:</p>
+                <ul>
+                    <li><strong>HTML:</strong> I've enjoyed learning how to structure web pages using HTML. I've focused on writing clean and organized code that sets the foundation for a good website.</li>
+                    <li><strong>CSS:</strong> CSS has allowed me to get creative with designs. I love experimenting with different styles and watching my web pages transform with colors, layouts, and animations.</li>
+                    <li><strong>JavaScript:</strong> JavaScript has been the most challenging yet rewarding part of my learning. It's exciting to add interactive elements to the web pages and see them respond to my commands.</li>
+                </ul>
+                
+                <h3>About This Website</h3>
+                <p>This website is a showcase of what I've learned so far. It includes a few sections where I display my projects, share my learning experiences, and explore new technologies. Through this platform, I hope to connect with other students and teachers and share our mutual interests in technology and programming.</p>
+                
+                <h3>My Goals</h3>
+                <p>While I am just starting out and still have much to learn, I am committed to expanding my knowledge in web development and other programming languages. My goal is to keep improving my skills and eventually take on more complex projects. I dream of becoming a professional web developer one day, and this website is just the beginning of that journey.</p>
+                
+                <p>If you have any questions or would like to discuss potential projects, please do not hesitate to contact me at <a href="mailto:advik.tyagi@gmail.com">advik.tyagi@gmail.com</a>.</p>
+                
+                <p>Thank you for visiting my site! Feel free to explore my projects and leave feedback. I am excited about the opportunity to learn from this experience and improve with every project I undertake.</p>
+            </div>
+            <br>
+            <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+        
+            <script>
+                // Get the button
+                var mybutton = document.getElementById("topBtn");
+        
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () {
+                    scrollFunction();
+                };
+        
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+        
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+            </script>
+            <br><br><br>
+            <div class="footer">
+                <p>By- Advik Tyagi 8D</p>
+            </div>
+        </body>
+
+</html>
